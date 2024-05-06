@@ -1,1 +1,60 @@
-<p>receive-food works!</p>
+<div class="receive-food-conatiner">
+	<div class="receive-food-conatiner__intro">
+		<div class="receive-food-conatiner__intro-text">
+			<div class="receive-food-conatiner__intro-text-heading">
+				<span>Hungry for help?</span>
+				<span>Let us fill your plate with kindness</span>
+			</div>
+			<div class="receive-food-conatiner__intro-text-description">
+				<span>
+					Discover food donations near you! Simply provide your location details
+					below, and we'll connect you with generous donors in your area
+				</span>
+			</div>
+		</div>
+		<div class="receive-food-conatiner__intro-illustration">
+			<img
+				src="../../assets/images/receive-food/receive-food-img.png"
+				alt="receive-food"
+			/>
+		</div>
+	</div>
+	<div class="receive-food-conatiner__address">
+		<div>Map Space</div>
+		<form
+			onsubmit="[handleOnSubmit]"
+			class="receive-food-conatiner__address-form"
+		>
+			<div class="single-field-wrapper">
+				<label for="address-line">
+					Address Line 1(House No., Building, Street, Area)*
+				</label>
+				<input type="text" id="address-line" />
+			</div>
+			<div class="multiple-field-wrapper">
+				<div class="single-field-wrapper">
+					<label for="city">City/District*</label>
+					<input type="text" id="city" />
+				</div>
+				<div class="single-field-wrapper">
+					<label for="state">State*</label>
+					<input type="text" id="state" />
+				</div>
+			</div>
+			<div class="multiple-field-wrapper">
+				<div class="single-field-wrapper">
+					<label for="country">Country*</label>
+					<input type="text" id="country" />
+				</div>
+				<div class="single-field-wrapper">
+					<label for="pincode">Pincode*</label>
+					<input type="text" id="pincode" />
+				</div>
+			</div>
+			<div>
+				<button>Submit</button>
+				<button>Cancel</button>
+			</div>
+		</form>
+	</div>
+</div>

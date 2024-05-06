@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: space-between;
 	padding: 12px 24px;
+	background-color: red($color: #000000);
 
 	&__header-logo {
 		width: 48px;
@@ -15,6 +16,7 @@
 
 		&-item {
 			margin: 0 24px;
+			cursor: pointer;
 
 			&:hover {
 				color: $text-orange;
